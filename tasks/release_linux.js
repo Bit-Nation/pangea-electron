@@ -37,7 +37,7 @@ var copyRuntime = function () {
 
     // Add Patchwork's license next to the other licenses
     readyAppDir.rename('LICENSE', 'LICENSE-Electron');
-    return projectDir.copyAsync('app/node_modules/ssb-patchwork/LICENSE',
+    return projectDir.copyAsync('app/node_modules/pangea/LICENSE',
         readyAppDir.path('LICENSE-Patchwork'));
 };
 
@@ -68,7 +68,7 @@ var finalize = function () {
     packDir.write('usr/share/applications/' + manifest.name + '.desktop', desktop);
 
     // Copy icon
-    projectDir.copy('app/node_modules/ssb-patchwork/ui/img/icon.png',
+    projectDir.copy('app/node_modules/pangea/ui/img/icon.png',
         readyAppDir.path('icon.png'));
 
     return Q();
