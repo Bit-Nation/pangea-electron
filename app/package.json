@@ -9,6 +9,6 @@
   "main": "index.js",
   "version": "2.12.3",
   "dependencies": {
-    "ssb-patchwork": "2.12.3"
+    "pangea": "^2.12.4"
   }
 }
