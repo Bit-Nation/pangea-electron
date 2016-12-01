@@ -1,1 +1,1 @@
-require('ssb-patchwork')
+require('pangea')
