@@ -1,12 +1,13 @@
-patchwork-electron
+pangea-electron
 ==============
 
+forked from [patchwork-electron](https://github.com/ssbc/patchwork-electron)
 
 ## Running from source
 
 ```bash
 $ cd ~
-$ git clone https://github.com/ssbc/patchwork-electron.git
+$ git clone https://github.com/Bit-Nation/pangea-electron.git
 $ cd patchwork-electron
 $ npm install
 $ npm start
@@ -16,12 +17,12 @@ To use the latest patchwork version, do the following:
 
 ```bash
 $ cd ~
-$ git clone https://github.com/ssbc/patchwork.git
+$ git clone https://github.com/Bit-Nation/pangea.git
 $ cd patchwork
 $ npm install
 $ npm link
-$ cd ~/patchwork-electron/app
-$ npm link ssb-patchwork
+$ cd ~/pangea-electron/app
+$ npm link pangea
 ```
 
 ## Troubleshooting
