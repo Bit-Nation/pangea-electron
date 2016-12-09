@@ -1,14 +1,14 @@
 {
-  "name": "ssb-patchwork-electron",
-  "productName": "Patchwork",
-  "identifier": "com.ssbc.patchwork",
+  "name": "pangea-electron",
+  "productName": "Pangea",
+  "identifier": "co.bitnation.pangea",
   "description": "p2p social sharing",
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "copyright": "© 2016, Secure Scuttlebutt Consortium",
   "license": "GPL-3.0",
   "main": "index.js",
-  "version": "2.12.3",
+  "version": "2.12.6",
   "dependencies": {
-    "pangea": "^2.12.4"
+    "pangea": "2.12.6"
   }
 }
