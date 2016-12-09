@@ -24,9 +24,9 @@
     "test": "node ./tasks/start --env=test"
   },
   "dependencies": {
-    "mktemp": "^0.4.0",
-    "pangea": "^2.12.4"
+    "mktemp": "^0.4.0"
   },
-  "version": "2.12.3"
+  "version": "2.12.5"
 }
+
 
