@@ -8,7 +8,7 @@ forked from [patchwork-electron](https://github.com/ssbc/patchwork-electron)
 ```bash
 $ cd ~
 $ git clone https://github.com/Bit-Nation/pangea-electron.git
-$ cd patchwork-electron
+$ cd pangea-electron
 $ npm install
 $ npm start
 ```
@@ -18,7 +18,7 @@ To use the latest patchwork version, do the following:
 ```bash
 $ cd ~
 $ git clone https://github.com/Bit-Nation/pangea.git
-$ cd patchwork
+$ cd pangea
 $ npm install
 $ npm link
 $ cd ~/pangea-electron/app
@@ -32,7 +32,7 @@ If you get an error similar to:
 > Uncaught Exception:
 > Error: Module version mismatch. Expected 50, got 48.
 
-It means your installed node version is not compatible with the version of Electron patchwork uses. You'll need to rebuild your node module folder using:
+It means your installed node version is not compatible with the version of Electron pangea uses. You'll need to rebuild your node module folder using:
 
 ```bash
 $ npm run rebuild
